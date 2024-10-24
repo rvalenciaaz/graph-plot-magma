@@ -150,7 +150,7 @@ def read_multiplication_tables_from_file(filename):
 
 def main():
     # File containing multiplication tables (one per row in list format)
-    filename = 'magmas8x8(WIP).txt'
+    filename = 'magma_16.txt'
 
     # Read multiplication tables from the file
     multiplication_tables = read_multiplication_tables_from_file(filename)

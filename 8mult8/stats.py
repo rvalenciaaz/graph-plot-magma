@@ -33,7 +33,7 @@ def analyze_graph_files(file_list):
             print(f"Error analyzing {file_path}: {e}")
 
 # Example usage: list of files to analyze
-file_list = ['graph_'+str(i)+'.pkl' for i in range(1,1833)]
+file_list = ['graph_1.pkl']#['graph_'+str(i)+'.pkl' for i in range(1,1833)]
 
 # Analyze all graphs in the file list
 analyze_graph_files(file_list)

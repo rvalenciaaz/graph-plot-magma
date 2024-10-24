@@ -35,11 +35,11 @@ def reconstruct_multiplication_table_from_graph(graph_filename, n):
 def main():
     # Specify the table index and size
     table_index = 1  # Change as needed
-    n = 16  # Size of the multiplication table
+    n = 4  # Size of the multiplication table
 
     # Construct the graph filename
     #graph_filename = f'graph_{table_index}.pkl'
-    graph_filename = f'graph_order_16.pkl'
+    graph_filename = f'updated_graph.pkl'
     # Reconstruct the multiplication table
     M = reconstruct_multiplication_table_from_graph(graph_filename, n)
 
